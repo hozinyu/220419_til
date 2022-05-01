@@ -8,12 +8,15 @@
     display: inline-block;
     position: relative;
     background-color: slateblue;
-    width: 120px;    margin: 14px;
+    width: 120px; 
+    padding: 20px 0px;
+    margin: 14px;
     color: white;
     text-align: center;
     font-size: 14px;
     letter-spacing: 0.5px;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .dropdown-section {
@@ -25,8 +28,11 @@
     list-style: none;    font-size: 10px;
 }
 
+
 .dropdown-menu:hover .dropdown-section {
-    width: 120px;
+    width: 120px; 
+    margin-top: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
